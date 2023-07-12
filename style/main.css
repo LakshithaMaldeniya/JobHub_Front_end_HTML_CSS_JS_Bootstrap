@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+}
+
+.navbar-outer {
+    position: fixed;
+    box-shadow: 3px 3px 3px rgba(44, 62, 80, 0.1);
+    background-color: rgb(30, 199, 167);
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+
+.navbar-right {
+    display: flex;
+    height: 100%;
+    flex: 1;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+}
+
+.navbar-items {
+    width: 80%;
+    height: 100%;
+}
+
+.navbar-items > ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    height: 100%;
+}
+
+.navbar-items > ul > li {
+    margin-left: 40px;
+}
+
+.navbar-items > ul > li:last-child {
+    margin-right: 30px;
+}
+
+.navbar-addpost-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex: 1;
+    min-width: 160px;
+}
+
+.navbar-items > ul > li > a {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.items-su{
+    color: #c01b30;
+}
+
+.navbar-items > ul > li > a:hover{
+    color: #c01b30;
+    font-weight: 800;
+}
+
+
+
+.logo-outer {
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.company-name {
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.txthub {
+    color: #CF182E;
+}
+
+.logo-image {
+    width: 49px;
+    height: 49px;
+}
+
+@media (max-width: 800px) {
+    .logo-outer {
+        margin-left: 10px;
+    }
+
+    .navbar-left {
+        flex-direction: column;
+    }
+
+    .navbar-right {
+        flex-direction: column;
+    }
+
+    .navbar-outer {
+        height: 100px;
+    }
+
+    .navbar-items > ul > li {
+        margin-left: 20px;
+    }
+
+    .navbar-items > ul > li:last-child {
+        margin-right: 10px;
+    }
+
+    .items-ca {
+        display: none;
+    }
+
+    .navbar-items > ul {
+        justify-content: center;
+    }
+}
+/*====================Navigation Bar end=============================*/
+
+.banner-wrapper{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: rgb(30, 199, 167);
+}
+
+.banner-outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.banner-hedding{
+margin-top: 90px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.search-foerm{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-txt{
+    width: 60%;
+    height: 40px;
+    margin-right: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(127, 140, 141,1.0);
+}
+
+.lable-outer{
+   display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -170px;
+}
+.search-unit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.lbl-txt{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn{
+    border: #111111;!important;
+    margin: 20px;
+    background-color: #c01b30;
+}
+
+.btn-search{
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+}
+
+
+@media (max-width: 800px) {
+    .banner-hedding{
+        margin-top: 30px;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .lbl-txt{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .search-foerm{
+        margin-top: 30px;
+    }
+    }
+
+/*=======================BANNAER END============================*/
+
+.jobsection-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobsection-title-TXT{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.jobcontainer{
+    width: 97%;
+    margin: 20px;
+    border: 1px solid rgb(30, 199, 167);
+    height: auto;
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.post-formate{
+    width: 95%;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.post-list{
+    list-style: none;
+}
+
+/*=========================Job Container completd============================*/
+
+.contact {
+    display: flex;
+}
+
+.contactouter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-form {
+    width: auto;
+    height: auto;
+    background-color: rgb(30, 199, 167);
+    margin-top: 30px;
+}
+
+
+.contact-form-hedding {
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.right-form {
+    padding: 20px;
+    width: 33.33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-outer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.data {
+    width: 90%;
+    height: 30px;
+    margin: 15px;
+
+}
+
+.form-inner {
+    display: flex;
+}
+
+#input-message {
+    width: 90%;
+    height: 135px;
+    margin: 15px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 30%;
+}
+
+.details {
+    display: flex;
+    width: 90%;
+    height: 85px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80px;
+}
+
+.icon-disc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ipic {
+    width: 25px;
+    height: 25px;
+}
+
+.btn-submit{
+    margin-bottom: 50px;
+}
+
+.copyright{
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.footer-list{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.f-list-txt{
+    text-decoration: none;
+    color: #111111;
+}
+
+.h5txt{
+    font-size: 16px;
+}
